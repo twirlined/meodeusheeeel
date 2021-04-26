@@ -26,8 +26,26 @@ public class DbOpenHelper {
         @Override
         public void onCreate(SQLiteDatabase db){
             db.execSQL(DataBases.CreateDB._CREATE0);
-            db.execSQL("INSERT INTO " + "usertable"
-                    + "(USERID, NAME, AGE, GENDER) Values('"+"abc"+"', '"+"abc"+"', '"+ 18 +"', '"+"abc"+"');");
+            Cursor cursor = db.rawQuery("SELECT * FROM usertable", null);
+            if(cursor.getCount() == 0)
+            {
+                db.execSQL("INSERT INTO " + "usertable"
+                        + "(USERID, NAME, AGE, GENDER) Values('"+"abc"+"', '"+"abc"+"', '"+ 18 +"', '"+"abc"+"');");
+                db.execSQL("INSERT INTO " + "usertable"
+                        + "(USERID, NAME, AGE, GENDER) Values('"+"abc"+"', '"+"abc"+"', '"+ 19 +"', '"+"abc"+"');");
+                db.execSQL("INSERT INTO " + "usertable"
+                        + "(USERID, NAME, AGE, GENDER) Values('"+"abc"+"', '"+"abc"+"', '"+ 20 +"', '"+"abc"+"');");
+                db.execSQL("INSERT INTO " + "usertable"
+                        + "(USERID, NAME, AGE, GENDER) Values('"+"abc"+"', '"+"abc"+"', '"+ 21 +"', '"+"abc"+"');");
+                db.execSQL("INSERT INTO " + "usertable"
+                        + "(USERID, NAME, AGE, GENDER) Values('"+"abc"+"', '"+"abc"+"', '"+ 22 +"', '"+"abc"+"');");
+                db.execSQL("INSERT INTO " + "usertable"
+                        + "(USERID, NAME, AGE, GENDER) Values('"+"abc"+"', '"+"abc"+"', '"+ 23 +"', '"+"abc"+"');");
+            }
+            else
+            {
+
+            }
         }
 
         @Override
