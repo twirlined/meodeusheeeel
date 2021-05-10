@@ -19,4 +19,4 @@ DB 초기 설정을 해보려 했으나 실패(3시간 있었는데 없었습니
 DB 초기 설정 가능해짐
 
 ## 5/11
-FireBase와 Android studio 연결성공, 내일 login 만들 예정
+FireBase와 Android studio 연결성공, 내일 login 만들 예정 / 삼성 헬스 csv 파일 read 완료
