@@ -20,3 +20,6 @@ DB 초기 설정 가능해짐
 
 ## 5/11
 FireBase와 Android studio 연결성공, 내일 login 만들 예정 / 삼성 헬스 csv 파일 read 완료
+
+## 5/28
+로그인 및 초기화면 구현 완료
