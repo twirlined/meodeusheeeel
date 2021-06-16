@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
         Arrays.fill(user_alergy, false);
         Arrays.fill(STATE, false);
         Arrays.fill(can_eat, true);
-
+        /*
         ArrayList<String[]> data = new ArrayList<String[]>();
         try {
             CSVReader reader = new CSVReader(new InputStreamReader(getResources().openRawResource(R.raw.test)));
@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
         int STEP = step_count;
         float CALORIE = calorie;
         String TIME_EXERCISE = time;
-
+        */
         String[] alergy_name = getResources().getStringArray(R.array.alergy_name);
         String[] menu_name = getResources().getStringArray(R.array.menu_name);
         String[] alergy_each_menu = getResources().getStringArray(R.array.ALERGY_EACH_MENU);
