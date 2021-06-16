@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ESSENTIAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="필수 선택"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="48dp"
+        android:text="최근먹은 것을 제외할까요?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ESSENTIAL" />
+
+    <TextView
+        android:id="@+id/alcohol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:text="안주인가요?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recent" />
+
+    <Switch
+        android:id="@+id/recent_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toEndOf="@+id/recent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/alcohol_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/alcohol"
+        app:layout_constraintTop_toBottomOf="@+id/recent_switch" />
+
+    <ImageButton
+        android:id="@+id/First_image"
+        android:layout_width="125dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alcohol"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageButton
+        android:id="@+id/Second_image"
+        android:layout_width="125dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/First_image"
+        app:layout_constraintTop_toTopOf="@+id/First_image"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageButton
+        android:id="@+id/Third_image"
+        android:layout_width="125dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/Second_image"
+        app:layout_constraintTop_toTopOf="@+id/Second_image"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <Switch
+        android:id="@+id/GPS_search"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        app:layout_constraintStart_toStartOf="@+id/Together_switch"
+        app:layout_constraintTop_toTopOf="@+id/Together_by_GPS" />
+
+    <TextView
+        android:id="@+id/Additional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="92dp"
+        android:text="추가 선택"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/First_image" />
+
+    <TextView
+        android:id="@+id/Together"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="같이 먹는 사람이 있나요?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Additional" />
+
+    <EditText
+        android:id="@+id/USER_ID"
+        android:layout_width="237dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="다른 사용자의 ID를 입력해주세요"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Together" />
+
+    <TextView
+        android:id="@+id/Together_by_GPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:text="같이 먹는 사람을 GPS로 찾을까요?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/USER_ID" />
+
+    <TextView
+        android:id="@+id/RANDOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:text="랜덤하게 추천받기"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Together_by_GPS" />
+
+    <Switch
+        android:id="@+id/Together_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/alcohol_switch"
+        app:layout_constraintTop_toTopOf="@+id/Together" />
+
+    <Switch
+        android:id="@+id/Random_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        app:layout_constraintStart_toStartOf="@+id/GPS_search"
+        app:layout_constraintTop_toTopOf="@+id/RANDOM" />
+
+    <Button
+        android:id="@+id/INSERT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="추가하기"
+        app:layout_constraintStart_toEndOf="@+id/USER_ID"
+        app:layout_constraintTop_toBottomOf="@+id/Together" />
+
+    <Switch
+        android:id="@+id/activation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/First_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/First_image"
+        app:layout_constraintStart_toStartOf="@+id/First_image"
+        app:layout_constraintTop_toBottomOf="@+id/First_image" />
+
+    <TextView
+        android:id="@+id/Second_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/Second_image"
+        app:layout_constraintStart_toEndOf="@+id/First_image"
+        app:layout_constraintTop_toBottomOf="@+id/Second_image" />
+
+    <TextView
+        android:id="@+id/Third_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/Third_image"
+        app:layout_constraintStart_toEndOf="@+id/Second_image"
+        app:layout_constraintTop_toBottomOf="@+id/Third_image" />
+
+    <Button
+        android:id="@+id/FLUSH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="다시 추천"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Third_menu" />
+
+    <TextView
+        android:id="@+id/SELECT_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RANDOM" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

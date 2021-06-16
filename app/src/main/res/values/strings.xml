@@ -1,3 +1,501 @@
 <resources>
+    <string-array name="spicy_level">
+        <item>1단계 매운거 불가능</item>
+        <item>2단계 신라면보다 덜 매운거까지</item>
+        <item>3단계 신라면정도까지</item>
+        <item>4단계 신라면 2배정도</item>
+        <item>5단계 불닭정도</item>
+    </string-array>
+
+    <string-array name="alergy_name">
+        <item>MAEMIL</item>
+        <item>밀</item>
+        <item>대두</item>
+        <item>호두</item>
+
+        <item>복숭아</item>
+        <item>토마토</item>
+        <item>돼지고기</item>
+        <item>난류</item>
+
+        <item>우유</item>
+        <item>닭고기</item>
+        <item>소고기</item>
+        <item>새우</item>
+
+        <item>홍합</item>
+        <item>전복</item>
+        <item>굴</item>
+        <item>조개류</item>
+
+        <item>땅콩</item>
+        <item>고등어</item>
+        <item>오징어</item>
+        <item>게</item>
+
+        <item>아황산포함식품</item>
+    </string-array>
+
+    <string-array name="ALERGY_EACH_MENU">
+        <item>00000000000000000000000000000000000000000</item>
+        <item>11111111111111110100111111100101110101101</item>
+        <item>01111111111011110100101111100101111010001</item>
+        <item>00000000000000000000000000000000000000000</item>
+
+        <item>00000000000000000000000000000000000000000</item>
+        <item>00000000001101000000000000000100001001100</item>
+        <item>10011001111101000000101100000100100010010</item>
+        <item>00000000000000000000100000010100100000100</item>
+
+        <item>00000000011101000000001100000100111100001</item>
+        <item>00000000000000000000000000000000000000001</item>
+        <item>00001000000100000000101111101000100000001</item>
+        <item>00000001011000000101010000010000001010000</item>
+
+        <item>00000000000000000000000000000000000000000</item>
+        <item>00000000000000000000000000000000000000000</item>
+        <item>00000000000000000000000000000000000000000</item>
+        <item>00001000001001000001010001000000001000000</item>
+
+        <item>00000000000000000000000000010000000000000</item>
+        <item>00000000000000000001000000000010000000000</item>
+        <item>00001000000000000100010000000000001000000</item>
+        <item>00000000000000000100010000000000000000000</item>
+
+        <item>00000000000000000000000000000000000000000</item>
+    </string-array>
+
+    <string-array name="menu_name">
+        <item>제육볶음</item>
+        <item>된장찌개</item>
+        <item>닭볶음탕</item>
+        <item>짜장면</item>
+
+        <item>짬뽕</item>
+        <item>떡볶이</item>
+        <item>치킨</item>
+        <item>족발</item>
+
+        <item>수육</item>
+        <item>김치찌개</item>
+        <item>파스타</item>
+        <item>피자</item>
+
+        <item>찜닭</item>
+        <item>볶음밥</item>
+        <item>닭발</item>
+        <item>물회</item>
+
+        <item>과메기</item>
+        <item>어묵탕</item>
+        <item>비빔밥</item>
+        <item>초밥</item>
+
+        <item>돈까스</item>
+        <item>국물 라면</item>
+        <item>쌀국수</item>
+        <item>만두</item>
+
+        <item>잔치국수</item>
+        <item>칼국수</item>
+        <item>마라탕</item>
+        <item>팟타이</item>
+
+        <item>스테이크</item>
+        <item>햄버거</item>
+        <item>생선구이</item>
+        <item>파전</item>
+
+        <item>갈비찜</item>
+        <item>커리</item>
+        <item>똠양꿍</item>
+        <item>리조또</item>
+
+        <item>국밥</item>
+        <item>타코</item>
+        <item>샌드위치</item>
+        <item>삼겹살</item>
+
+        <item>불닭볶음면</item>
+    </string-array>
+
+    <string-array name="분류">
+        <item>한식</item>
+        <item>한식</item>
+        <item>한식</item>
+        <item>중식</item>
+
+        <item>중식</item>
+        <item>분식</item>
+        <item>한식</item>
+        <item>한식 안주</item>
+
+        <item>한식 안주</item>
+        <item>한식</item>
+        <item>양식</item>
+        <item>양식</item>
+
+        <item>한식</item>
+        <item>한식</item>
+        <item>한식 안주</item>
+        <item>한식</item>
+
+        <item>한식 안주</item>
+        <item>한식 안주</item>
+        <item>한식</item>
+        <item>일식</item>
+
+        <item>일식</item>
+        <item>한식 안주</item>
+        <item>아시아</item>
+        <item>한식 중식</item>
+
+        <item>한식</item>
+        <item>한식</item>
+        <item>중식</item>
+        <item>아시아</item>
+
+        <item>양식</item>
+        <item>양식</item>
+        <item>한식</item>
+        <item>한식 안주</item>
+
+        <item>한식</item>
+        <item>한식 일식 아시아</item>
+        <item>아시아</item>
+        <item>양식</item>
+
+        <item>한식 안주</item>
+        <item>양식 안주</item>
+        <item>분식</item>
+        <item>한식 안주</item>
+
+        <item>한식</item>
+    </string-array>
+
+    <string-array name="날씨">
+        <item> </item>
+        <item>추위</item>
+        <item> </item>
+        <item> </item>
+
+        <item>비 추위</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+        <item> </item>
+        <item>추위</item>
+        <item> </item>
+        <item> </item>
+
+        <item> </item>
+        <item> </item>
+        <item>비</item>
+        <item>더위</item>
+
+        <item>비</item>
+        <item>추위 비</item>
+        <item> </item>
+        <item> </item>
+
+        <item> </item>
+        <item>추위 비</item>
+        <item>추위</item>
+        <item> </item>
+
+        <item>추위</item>
+        <item>추위</item>
+        <item> </item>
+        <item> </item>
+
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>비</item>
+
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+        <item>추위 비</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+        <item> </item>
+    </string-array>
+
+    <string-array name="주재료">
+        <item>돼지고기</item>
+        <item>된장 두부 멸치</item>
+        <item>닭</item>
+        <item> </item>
+
+        <item>밀가루</item>
+        <item>밀가루</item>
+        <item>닭 밀가루</item>
+        <item>돼지고기</item>
+
+        <item>돼지고기</item>
+        <item> </item>
+        <item>밀가루</item>
+        <item>밀가루</item>
+
+        <item>닭</item>
+        <item> </item>
+        <item>닭</item>
+        <item>생선</item>
+
+        <item>생선</item>
+        <item>생선</item>
+        <item> </item>
+        <item>생선</item>
+
+        <item>돼지고기</item>
+        <item>밀가루 소고기</item>
+        <item> </item>
+        <item>밀가루</item>
+
+        <item>밀가루</item>
+        <item>밀가루</item>
+        <item> </item>
+        <item>밀가루</item>
+
+        <item>소고기</item>
+        <item>돼지고기</item>
+        <item>생선</item>
+        <item>밀가루</item>
+
+        <item>돼지고기 소고기</item>
+        <item> </item>
+        <item>새우</item>
+        <item> </item>
+
+        <item>돼지고기</item>
+        <item>밀가루</item>
+        <item>밀가루</item>
+        <item>돼지고기</item>
+
+        <item>밀가루</item>
+    </string-array>
+
+    <string-array name = "PREV_SELECTION_STRING">
+        <item>FIRST_SELECTION</item>
+        <item>SECOND_SELECTION</item>
+        <item>THIRD_SELECTION</item>
+        <item>FIRST_SELECTION_DATE</item>
+        <item>SECOND_SELECTION_DATE</item>
+        <item>THIRD_SELECTION_DATE</item>
+    </string-array>
+
+    <string-array name = "vegan_array">
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+
+        <item>false</item>
+    </string-array>
+
+    <integer-array name="budget">
+        <item>8000</item>
+        <item>7000</item>
+        <item>19000</item>
+        <item>6000</item>
+
+        <item>7000</item>
+        <item>5000</item>
+        <item>18000</item>
+        <item>35000</item>
+
+        <item>30000</item>
+        <item>7000</item>
+        <item>10000</item>
+        <item>15000</item>
+
+        <item>19000</item>
+        <item>6500</item>
+        <item>17000</item>
+        <item>12000</item>
+
+        <item>18000</item>
+        <item>8000</item>
+        <item>7000</item>
+        <item>15000</item>
+
+        <item>7000</item>
+        <item>3000</item>
+        <item>8000</item>
+        <item>4000</item>
+
+        <item>6000</item>
+        <item>6000</item>
+        <item>10000</item>
+        <item>8000</item>
+
+        <item>20000</item>
+        <item>5000</item>
+        <item>12000</item>
+        <item>10000</item>
+
+        <item>20000</item>
+        <item>8000</item>
+        <item>18000</item>
+        <item>10000</item>
+
+        <item>7000</item>
+        <item>12000</item>
+        <item>5000</item>
+        <item>15000</item>
+
+        <item>1500</item>
+    </integer-array>
+
+    <integer-array name="menu_spicy_level">
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+
+        <item>1</item>
+        <item>1</item>
+        <item>4</item>
+        <item>2</item>
+
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+
+        <item>1</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+
+        <item>5</item>
+    </integer-array>
+
     <string name="app_name">My Application</string>
+    <string name="author">Author</string>
+    <string name="add_your_quote">Add your quote</string>
+    <string name="button">Button</string>
+    <string name="fetch">FETCH</string>
+    <string name="textview">TextView</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="pork">돼지고기</string>
+    <string name="maemil">메밀</string>
+    <string name="peach">복숭아</string>
+    <string name="milk">우유</string>
+    <string name="mussel">홍합</string>
+    <string name="peanut">땅콩</string>
+    <string name="H2SO3">아황산 포함 식품</string>
+    <string name="mackerel">고등어</string>
+    <string name="vegan">비건</string>
+    <string name="jeonbok">전복</string>
+    <string name="chicken">닭고기</string>
+    <string name="wheat">밀</string>
+    <string name="soybean">대두</string>
+    <string name="beef">소고기</string>
+    <string name="oyster">굴</string>
+    <string name="squid">오징어</string>
+    <string name="crab">게</string>
+    <string name="clam">조개류</string>
+    <string name="shrimp">새우</string>
+    <string name="egg">난류</string>
+    <string name="walnut">호두</string>
+    <string name="tomato">토마토</string>
+    <string name="ex_25_25">(ex : 25일이 월급날인 경우 25 입력)</string>
+    <string name="meodeusheeeel">Meodeusheeeel</string>
+    <string name="sub_title">오직 당신을 위한 메뉴 추천 앱</string>
+    <string name="sign_in">처음 오셨나요?</string>
+    <string name="login">로그인</string>
+    <string name="pay_day">월급날</string>
+    <string name="having_alergy">알레르기가 있으신가요? (있는 성분에 체크해주세요)</string>
+    <string name="is_vegan">비건이신가요 (비건인 경우에 체크해주세요)</string>
+    <string name="password">비밀번호</string>
+    <string name="NAME">이름</string>
+    <string name="ID_TEXT">아이디</string>
+    <string name="password_edit">password</string>
+    <string name="location_permission_denied">Location permissions denied,
+    please enable the permissions to use this app.
+    </string>
+    <string name="height_source">신장이 얼마인가요?</string>
 </resources>
